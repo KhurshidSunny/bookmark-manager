@@ -16,7 +16,7 @@
   <body>
     <!-- app container -->
     <div class="">
-      <nav class="flex items-center px-10 py-12 justify-between">
+      <nav class="flex items-center px-10 py-10 justify-between">
         <a href="#">
           <img src="images/logo-bookmark.svg" alt="" />
           design
@@ -60,7 +60,7 @@
       </nav>
 
       <!-- Hero section -->
-      <section class="px-12 py-10 flex flex-col my-8 gap-5">
+      <section class="px-10 py-10 flex flex-col my-8 gap-5">
         <!-- iamge container -->
         <div class="flex mx-auto">
           <img
@@ -70,9 +70,9 @@
           />
         </div>
 
-        <!-- hero sectin contnet -->
+        <!-- hero sectin container -->
         <div class="flex flex-col mx-auto gap-6">
-          <h1 class="text-2xl text-center font-bold w-full">
+          <h1 class="text-3xl capitalize text-center font-bold w-full">
             a simple bookmark manager
           </h1>
           <p class="text-center text-sm px-8 text-gray-400">
@@ -82,19 +82,63 @@
           </p>
 
           <!-- hero section buttons -->
-          <div class="flex gap-8 box-border">
+          <div class="flex gap-8">
             <button
-              class="bg-blue-500 font-medium text-white px-6 py-4 rounded-md hover:bg-white hover:text-blue-500 hover:border box-border border-blue-500"
+              class="bg-blue-500 font-medium text-white px-6 py-4 rounded-md capitalize hover:bg-white hover:text-blue-500 hover:border box-border border-blue-500"
             >
               get it on chrome
             </button>
             <button
-              class="bg-gray-300 font-medium text-black px-6 py-4 rounded-md hover:text-blue-500 hover:border box-border border-blue-500"
+              class="bg-gray-300 font-medium text-black px-6 py-4 rounded-md capitalize hover:text-blue-500 hover:border box-border border-blue-500"
             >
               get it on firebox
             </button>
           </div>
         </div>
+      </section>
+
+      <!-- feature section -->
+      <section class="py-10 gap-8 px-10 mb-8 flex flex-col">
+        <!-- feature contiente -->
+        <div class="flex flex-col gap-6">
+          <h1 class="">Features</h1>
+          <p>
+            Our aim is to make it quick and easy for you to access your
+            favourite websites. Your bookmarks sync between your devices so you
+            can access them on the go.
+          </p>
+          <!-- tabbed component -->
+          <div class="flex flex-col relative">
+            <p class="mb-3 pb-3 border-b-2">Simple Bookmarking</p>
+            <p class="mb-3 pb-3 border-b-2">Speedy Searching</p>
+            <p class="mb-3 pb-3 border-b-2">Easy Sharing</p>
+
+            <!-- active tab bar -->
+            <div class="w-32 h-1 bg-red-600 absolute top-[5rem] right-36"></div>
+          </div>
+        </div>
+
+        <!-- features image  -->
+        <div class="flex flex-col mx-auto">
+          <div class="mb-20">
+            <img src="images/illustration-features-tab-1.svg" alt="" />
+          </div>
+          <!-- bookmark container -->
+          <div class="flex flex-col items-center justify-center">
+            <h1 class="mb-8">Bookmark in one click</h1>
+            <p class="mb-10">
+              Organize your bookmarks however you like. Our simple drag-and-drop
+              interface gives you complete control over how you manage your
+              favourite sites.
+            </p>
+            <button
+              class="border px-6 py-3 bg-blue-600 rounded-md text-white hover:bg-white hover:border border-blue-600 hover:text-black"
+            >
+              More Info
+            </button>
+          </div>
+        </div>
+        <div
       </section>
     </div>
   </body>

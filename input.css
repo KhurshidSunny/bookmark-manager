@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-3xl capitalize text-center font-bold w-full;
+  }
+
+  p {
+    @apply text-center text-sm px-8 text-gray-400;
+  }
+}
